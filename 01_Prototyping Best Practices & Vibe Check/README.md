@@ -37,9 +37,21 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
-    - Aspect Tested:
+    - Aspect Tested: 
+    
+    In this case, this question is testing if the applciation can take a more complex term, understand it properly, and commuinicate it in a simplified manner. The application did pass since the reply was high level and easy to understand. It also incorporated an example without being prompted to help the user understand the concept in a clear way. Also, since the prompt didn't state what type of beginner, the reply was general enough for all types of users and not just on technical personnel.  
+    
+    What could make the application better: the format (mix of bullets, short paragraphs, and **markdown style**) could be cleaned up to make it more readable. Also, instead of ending in "does that help?," the response could end with some clean leading questions - i.e. would you like another example? do you want more of a technical explaination?   
+
+
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: 
+
+    I chose a 
+
+
+
+
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
     - Aspect Tested:
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
