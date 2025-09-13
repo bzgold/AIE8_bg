@@ -39,25 +39,50 @@ Please evaluate your system on the following questions:
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner. 
     - Aspect Tested: 
     
-    In this case, this question is testing if the applciation can take a more complex term, understand it properly, and commuinicate it in a simplified manner. The application did pass since the reply was high level and easy to understand. It also incorporated an example without being prompted to help the user understand the concept in a clear way. Also, since the prompt didn't state what type of beginner, the reply was general enough for all types of users and not just on technical personnel.  
     
-    What could make the application better: the format (mix of bullets, short paragraphs, and **markdown style**) could be cleaned up to make it more readable. Also, instead of ending in "does that help?," the response could end with some clean leading questions - i.e. would you like another example? do you want more of a technical explaination?   
+    In this case, this question is testing if the application can take a more complex term, understand the key elements of OOP, and communicate it in a simplified manner. The application did pass since the reply was high level and easy to understand. It also incorporated an example without being prompted to help the user understand the concept in a clear way. Also, since the prompt didn't state what type of beginner, the reply was general enough for all types of users and not just on technical personnel.  
+    
+    What could make the application better: the format (mix of bullets, short paragraphs, and **markdown style**) could be cleaned up to make it more readable. Also, instead of ending in "does that help?" the response could end with some clean leading questions - i.e. would you like another example? do you want more of a technical explanation?   
 
 
-2. Read the following paragraph and provide a concise summary of the key points…
+
+
+
+2. Read the following paragraph and provide a concise summary of the key points...
     - Aspect Tested: 
 
-    I chose a 
+    I chose an article about the famous Fat Bear Week that occurs every year. 
 
+            One sentence sumamry of the article: Fat Bear Week is a fun and engaging annual contest held at Katmai National Park where locals and viewers worldwide vote for the chunkiest bears as they prepare for hibernation, raising awareness about the brown bears and their vital role in the ecosystem.
 
+    This question is testing the application's ability to read a paragraph, identify the difference between the key points and details, and communicate to the user a summarized response of only relevant points. The reply does pass the vibe check, the output was a summarized version of the larger article in a clear and concise format. Even though I didn't specify the length of the summary needed the original article was around 600 words and the output was 135 words. The response was separated into three distinct key ideas focused on the main requirements of who, what, where, and when. Also, the overall format was easy to read. 
+
+    What could make the application better: There could be better flow and removal of some redundancies, such as repeating the voting concept in all three sections. Perhaps, having a cleaner prioritization of the materials, i.e. dates and contest information first then talking to the bear's ecological standings. 
 
 
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: 
+         This question is testing if the application can generate an imaginative story about a specific subject matter within a certain number of words. The application did pass the vibe check, it was able to create a story about a robot finding an unlikely friendship with a bird that it helped. It gives the user (at least for me) an emotional response of feeling sad or disheartened by the Robot's loneliness to a heartwarming feeling by the end. There was a clear start to end flow which was easy for the audience to follow along. Also, there were good details that aided to the reading experience, such as "in a quiet junkyard" or "trapped beneath broken wires" that helped build the story. It was also 124 words, within the limit. 
+    
+
+
+    What could make this application better: The response fit what the prompt was. Perhaps adding leading questions on how to tune the response, such as do you want more suspense, or do you want a different tone? 
+
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
     - Aspect Tested:
+    
+    This question is testing if the application can basic math from a given scenario. The response does pass the vibe check. It starts by stating what it is looking for (12 apples and 9 oranges) and continues to do the calculations for the user step by step. The final answer is correct (3 packs of apples and 3 packs of oranges). It generally is easy to follow and is readable. 
+
+    What could make the application better: The formatting needs work. The simple calculations could be cleaner looking (not using plain text and markdown formats). Also, there could be a thought explanation of the process too. 
+
+
 5. Rewrite the following paragraph in a professional, formal tone…
     - Aspect Tested:
+
+    This question is testing if the application can adapt an informal style paragraph into a formal / professional piece. Therefore, the response needed to be polished (correct spelling, grammar, and organization), while retaining the message of the original text. The response did pass the vibe check. All the slang and poorly written sentences was changed to be more professional. The ideas were also structured in a more organized way and redundancies were removed. 
+    
+    What could make the application better: The tone is slightly different now that it is more professional. Potentially ensuring that those feelings are still translated better could be an area of improvement. The same messaged though was received.
+
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
 
@@ -71,6 +96,16 @@ This "vibe check" now serves as a baseline, of sorts, to help understand what ho
 
 What are some limitations of vibe checking as an evaluation tool?
 ##### ✅ Answer:
+
+Vibe checking is essentially doing a sniff test or sanity check on the application (similar to what you do with calculations). The main point is to quickly identify blatant issues or areas for improvement without spending a lot of time on a full evaluation.Although necessary, it has drawbacks—especially if you rely on it exclusively for a production system. 
+
+The main limitations are:
+    - Subjectivity: Evaluations depend on the individual. One person may deem a response good, while another may find it poor.
+    - Lack of objective metrics: Vibe checking does not measure accuracy, correctness, or validity.
+    - Surface level: Cannot fix deeper issues and only looks at surface level elements 
+    
+Overall, vibe checking is useful for an initial assessment of format, task completion, and general functionality. However, to ensure responses are accurate, logically sound, and free from hallucinations, a deeper evaluation is required.
+
 
 ### 🚧 Advanced Build (OPTIONAL):
 
