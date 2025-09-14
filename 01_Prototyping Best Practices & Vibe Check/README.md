@@ -117,12 +117,46 @@ Please make adjustments to your application that you believe will improve the vi
 ##### Adjustments Made:
 - _describe adjustment(s) here_
 
-##### Results:
-1. _Comment here how the change(s) impacted the vibe check of your system_
-2. 
-3. 
-4. 
-5.
+After a thorough vibe check, a lot of key improvements were made to significantly enhance the app and make it more reliable and transparent. The first, was bettering the memory functionality, user interface, and the overall user experience. The application's memory system now retains conversation history across sessions, supporting a 20-message context window. Before the application could not remember previous information and would be wiped clean from one message to the next. This change allows the AI to reference and build on previous parts of the conversation more effectively. The UI also received a major upgrade, including a cleaner dual-panel design with a natural, chat-style main window and a collapsible AI analysis panel that shows the reasoning behind responses and offers follow-up questions to keep conversations engaging. This gives users more confidence when using the app, by seeing how the app came up with the reply or what key words it was using the prompt. This can also be hidden if the user just wants to use the normal chatbot interface. 
+
+Dark mode was improved with better contrast and more readable fonts—black text in light mode and white in dark mode—for a more accessible experience. The refresh bar, which previously caused visual distortion every 5 seconds, was removed, and the entire interface was made more responsive and live looking (No refreshing bars). Also added an indicator whent he app is thinking in the meanwhile, so that users don't feel it is a black box and the answer is note pending. The issue is that people might get annoyed they cannot type in the meanwhile, but it is worth this annoyance to have a cleaner interface and better communication of process with the user.  Real-time statistics are now available, showing memory usage, message count, and session duration. Users cancancan also export their conversation history as a JSON file in case they want to recall or do analysis on it (adding transparency) and easily clear all stored history through a new button in the settings.
+
+Behind the scenes, the system prompt was made more comprehensive, message formatting was refined, and error handling was improved to ensure smoother, more reliable interactions. Additional features include structured responses, confidence indicators (so the AI can express uncertainty), and enhanced chain-of-thought reasoning to make the AI’s thought process more transparent. Overall, this version takes the basic structure of the original build and transforms it into a far more polished, intuitive, and intelligent experience for the user.
+
+Hope you all like it!
+
+Old app: https://frontend-nine-sage-81.vercel.app/
+New app: https://enhanced-nature-ai.vercel.app/
+
+
+
+    #### Results:
+ _Comment here how the change(s) impacted the vibe check of your system_
+1. Was able to pass vibe test, but the answer was longer and more detailed than before. Still uses an analogy but may be more confusing due to the increased detail. What was better though was the reasoning panel explained how it got to that conclusion (giving the user some piece of mind that what they were requesting was what the chatbot understood). Also, the leading questions are helpful, asking does these analogies make sense to you? or would you like to know how to use OOP in a real-world application (furthering your knowledge). I was also able to ask it more questions to make it shorter and simpler due to the memory enhancements. So, I was able to prompt it better and get a cleaner result. 
+2. Slightly better flow for the article and less redundancies (i.e. did not say to vote 3 separate times). Still need to be better at organizing the thoughts, but overall cohesive. Was also able to see reasoning and the follow-up questions are helpful. Was able to follow up the response by asking for a 1 sentence summary, which a smidge to long captured all the key elements. 
+3. Passed vibe check, created a good story that was like the original application. The only difference was having the reasoning there to explain how it got to that story. In this case it says it wanted to create a contrast between the industrial world and freedom of nature. So, in this case, I can see the angle more where it was coming from, and I can now edit the story from that. I can also ask some of the leading follow ups. 
+4. There was great improvement on the math question. It gave a lot more information for reasoning and answered the question in a step-by-step process. The formatting was also a lot cleaner
+
+old answer: 
+
+To get exactly 12 apples and 9 oranges:
+
+        - Apples come in packs of 4, so:  
+        \( \frac{12}{4} = 3 \) packs of apples.
+
+        - Oranges come in packs of 3, so:  
+        \( \frac{9}{3} = 3 \) packs of oranges.
+
+**You need 3 packs of apples and 3 packs of oranges.**
+
+
+new answer: 
+        To get exactly 12 apples and 9 oranges, you can calculate the number of packs needed for each fruit.
+        - For apples: Since each pack contains 4 apples, you would divide 12 by 4. That gives you 3 packs of apples (12 ÷ 4 = 3).
+        - For oranges: Each pack has 3 oranges, so dividing 9 by 3 gives you 3 packs of oranges (9 ÷ 3 = 3).
+        So, you need to buy 3 packs of apples and 3 packs of oranges.
+
+5. Passed vibe test, wasn't that much more improvement to the answer. But the reasoning and questions were helpful. 
 
 
 ## Submitting Your Homework
