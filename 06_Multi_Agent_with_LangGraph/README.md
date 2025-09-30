@@ -39,6 +39,17 @@ The graph should employ an additional team that verifies the correctness of the 
 
 The completed notebook!
 
+### Project Structure
+
+This project contains:
+
+- **`Multi_Agent_RAG_LangGraph.ipynb`** - Main notebook with the multi-agent LangGraph implementation
+- **`MailingAgent.py`** - Email automation agent for sending reports
+- **`data/`** - Contains the PDF data and CSV files used by the RAG system
+- **`content/`** - Generated content from the multi-agent system
+- **`test_email_*.py`** - Testing scripts for email functionality
+- **`email_content*.txt`** - Sample email content files
+
 ### Deliverables
 
 - A short Loom of the notebook, and a 1min. walkthrough of the application in full
