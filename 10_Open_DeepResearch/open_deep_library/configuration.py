@@ -52,11 +52,11 @@ class Configuration(BaseModel):
         }
     )
     allow_clarification: bool = Field(
-        default=True,
+        default=False,
         metadata={
             "x_oap_ui_config": {
                 "type": "boolean",
-                "default": True,
+                "default": False,
                 "description": "Whether to allow the researcher to ask the user clarifying questions before starting research"
             }
         }
