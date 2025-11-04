@@ -4,7 +4,7 @@ A FastAPI web application that serves as a simple LangGraph agent UI, forwarding
 
 ## 🎯 Overview
 
-This satisfies **Activity #1** requirements:
+**Activity #1** requirements:
 > "Build a LangGraph Graph to use your application. Do this by creating a Simple Agent that can make API calls to the 🤖Agent Node above through the A2A protocol."
 
 ### Features
@@ -237,16 +237,4 @@ Required packages (already in `pyproject.toml`):
 - `httpx` - Async HTTP client
 - `langchain-core` - For messages
 
-## 🎯 Next Steps
-
-This satisfies Activity #1! For Advanced Build, you could:
-- Add multiple personas with different goals
-- Chain multiple agents together
-- Add conversation history
-- Implement retry logic
-- Add response quality scoring
-
----
-
-**Built for AIE8 Session 15: A2A LangGraph Agent** 🚀
 
